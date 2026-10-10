@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <title>SALVANE — Wear Your Belief</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #080808;
+      color: #f5f3ee;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 6%;
+      border-bottom: 1px solid #292929;
+    }
+    .logo { letter-spacing: 5px; font-size: 22px; font-weight: 800; }
+    header span { font-size: 10px; letter-spacing: 2px; color: #aaa; }
+    .hero {
+      min-height: 76vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 50px 7%;
+      background: linear-gradient(0deg, #080808 0%, #080808d9 35%, #08080820 100%),
+        radial-gradient(ellipse at 70% 25%, #45413b 0%, #171615 35%, #080808 75%);
+    }
+    .eyebrow { font-size: 10px; letter-spacing: 4px; color: #c7bda9; }
+    h1 { font-size: clamp(54px, 12vw, 110px); line-height: .88; letter-spacing: -5px; margin: 25px 0; }
+    h1 em { font-style: normal; color: #aaa296; }
+    .intro { max-width: 330px; color: #c4c0ba; line-height: 1.7; font-size: 14px; }
+    .link {
+      display: inline-block; margin-top: 22px; padding: 16px 24px;
+      border: 1px solid #eee; color: #fff; text-decoration: none;
+      font-size: 11px; letter-spacing: 2px; width: fit-content;
+    }
+    section { padding: 65px 7%; border-top: 1px solid #292929; }
+    h2 { font-size: 30px; letter-spacing: -1px; }
+    .muted { color: #aaa; line-height: 1.8; max-width: 480px; }
+    .product {
+      margin-top: 28px; min-height: 260px; padding: 24px;
+      background: #171717; display: flex; flex-direction: column;
+      justify-content: flex-end; border: 1px solid #303030;
+    }
+    .product strong { font-size: 21px; letter-spacing: 2px; }
+    .product small { color: #aaa; margin-top: 10px; }
+    footer { padding: 30px 7%; color: #888; font-size: 10px; letter-spacing: 2px; }
+    @media (min-width: 700px) {
+      .hero { min-height: 82vh; padding: 70px 10%; }
+      section { padding: 85px 10%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">SALVANE</div>
+    <span>FAITH · CULTURE · FORM</span>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="eyebrow">EST. 2026 — GHANA</div>
+      <h1>WEAR<br>YOUR<br><em>BELIEF.</em></h1>
+      <p class="intro">More than clothing. A quiet declaration of faith, made for those who stand for something greater.</p>
+      <a class="link" href="#collection">DISCOVER SALVANE ↗</a>
+    </div>
+
+    <section id="collection">
+      <div class="eyebrow">01 — THE COLLECTION</div>
+      <h2>Faith, without compromise.</h2>
+      <p class="muted">Thoughtful streetwear. Timeless conviction. Every piece carries a message beyond the material.</p>
+      <div class="product">
+        <strong>THE FIRST CHAPTER</strong>
+        <small>THE SALVANE ESSENTIALS — COMING SOON</small>
+      </div>
+    </section>
+
+    <section>
+      <div class="eyebrow">02 — OUR PURPOSE</div>
+      <h2>Clothed in purpose.</h2>
+      <p class="muted">Salvane exists to share God's Word through design. Not just what you wear, but what you stand for.</p>
+      <a class="link" href="https://www.instagram.com/">FOLLOW THE JOURNEY ↗</a>
+    </section>
+  </main>
+
+  <footer>SALVANE © 2026 — MADE WITH PURPOSE.</footer>
+</body>
+</html>
